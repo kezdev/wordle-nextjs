@@ -1,6 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍍 Foodle
 
-## Getting Started
+I developed a food-themed version of Wordle using [Next.js](https://nextjs.org/), setting a one-hour time limit for the task. The game is nearly finished, but it still needs a score counter and functionality for managing win/lose states. You can check out the project live at this [demo URL](https://nextjs.org/)
+
+## Local setup
 
 First, run the development server:
 
@@ -15,8 +17,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Deployed Demo
-
-The easiest way to deploy your Next.js app is to use the [Demo](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
