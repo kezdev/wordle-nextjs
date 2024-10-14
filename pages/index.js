@@ -50,7 +50,7 @@ export default function Home() {
     }, [currentGuess, guesses, targetWord]);
     return (
         <div className="game-container">
-            <h1 className={'text-[42px] pb-2'}>🍕Foodle</h1>
+            <h1 className={'text-[52px] pb-2'}>🍍Foodle🍍</h1>
             <Grid
                 guesses={guesses}
                 currentGuess={currentGuess}
