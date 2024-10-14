@@ -2,26 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-gray-900 text-white flex justify-center items-center min-h-screen;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.game-container {
+  @apply text-center;
+}
+
+button {
+  @apply bg-gray-500 text-white border-none p-2 m-1 cursor-pointer hover:bg-gray-600 rounded-lg;
 }
