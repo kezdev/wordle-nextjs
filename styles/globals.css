@@ -13,3 +13,11 @@ body {
 button {
   @apply bg-gray-500 text-white border-none p-2 m-1 cursor-pointer hover:bg-gray-600 rounded-lg;
 }
+
+.row {
+  @apply flex justify-center;
+}
+
+.cell {
+  @apply w-10 h-10 border-2 border-gray-700 m-1 flex items-center justify-center font-bold text-lg;
+}
