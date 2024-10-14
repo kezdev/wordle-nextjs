@@ -21,3 +21,23 @@ button {
 .cell {
   @apply w-10 h-10 border-2 border-gray-700 m-1 flex items-center justify-center font-bold text-lg;
 }
+
+.cell.correct {
+  @apply bg-green-600;
+}
+
+.cell.present {
+  @apply bg-yellow-500;
+}
+
+.cell.absent {
+  @apply bg-gray-700;
+}
+
+.keyboard {
+  @apply flex flex-col items-center;
+}
+
+.keyboard-row {
+  @apply my-1;
+}
