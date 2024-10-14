@@ -1,6 +1,9 @@
 # 🍍 Foodle
 
-I developed a food-themed version of Wordle using [Next.js](https://nextjs.org/), setting a one-hour time limit for the task. The game is nearly finished, but it still needs a score counter and functionality for managing win/lose states. You can check out the project live at this [demo URL](https://nextjs.org/)
+I developed a food-themed version of Wordle using [Next.js](https://nextjs.org/), setting a one-hour time limit for the task. The game is nearly finished, but it still needs a score counter and functionality for managing win/lose states.
+
+![Screenshot 2024-10-14 at 20 00 54](https://github.com/user-attachments/assets/312c91ff-c82d-4256-a1c9-d728d6f96498)
+
 
 ## Local setup
 
