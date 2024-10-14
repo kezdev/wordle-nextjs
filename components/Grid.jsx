@@ -5,7 +5,7 @@ const Grid = ({ guesses, currentGuess }) => {
     const emptyRows = Array.from({ length: totalRows - guesses.length - 1 });
 
     return (
-        <div className="grid">
+        <div className="grid mb-2">
             {guesses.map((guess, index) => (
                 <div className="row" key={index}>
                     {guess.map((letter, i) => (

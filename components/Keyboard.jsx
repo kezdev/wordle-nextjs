@@ -19,8 +19,8 @@ const Keyboard = ({ onKeyPress }) => {
                 </div>
             ))}
             <div className="keyboard-row">
-                <button onClick={() => onKeyPress('ENTER')}>ENTER</button>
-                <button onClick={() => onKeyPress('DELETE')}>DELETE</button>
+                <button className={'action'} onClick={() => onKeyPress('ENTER')}>ENTER</button>
+                <button className={'action'} onClick={() => onKeyPress('DELETE')}>DELETE</button>
             </div>
         </div>
     );

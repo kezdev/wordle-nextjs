@@ -15,7 +15,11 @@ body {
 }
 
 button {
-  @apply bg-gray-500 text-white border-none p-2 m-1 cursor-pointer hover:bg-gray-600 rounded-lg;
+  @apply bg-gray-500 text-white border-none w-[50px] h-[50px] m-1 cursor-pointer hover:bg-gray-600 rounded-lg;
+}
+
+button.action {
+  @apply w-[100px];
 }
 
 .row {
