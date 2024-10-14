@@ -30,6 +30,24 @@ export default function Home() {
         }
     }
 
+    useEffect(() => {
+        const handleKeyDown = (event) => {
+            const key = event.key.toUpperCase();
+
+            if (key === 'ENTER') {
+                keyPressed('ENTER');
+            } else if (key === 'BACKSPACE' || key === 'DELETE') {
+                keyPressed('DELETE');
+            } else if (/^[A-Z]$/.test(key) && key.length === 1) {
+                keyPressed(key);
+            }
+        };
+
+        window.addEventListener('keydown', handleKeyDown);
+        return () => {
+            window.removeEventListener('keydown', handleKeyDown);
+        };
+    }, [currentGuess, guesses, targetWord]);
     return (
         <div className="game-container">
             <h1>Wordle!</h1>
